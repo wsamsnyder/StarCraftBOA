@@ -7,6 +7,7 @@ export const App = (props: AppProps) => {
 
   return (
     <div>
+      This is actually working?
       {firstWord}
     </div>
   );

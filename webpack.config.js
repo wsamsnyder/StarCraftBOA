@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 const path = require('path');
 
 module.exports = {
@@ -5,7 +6,7 @@ module.exports = {
   devtool: 'source-map',
   entry: './src/index',
   resolve: {
-    extensions: ['.tx', '.tsx'],
+    extensions: ['.ts', '.tsx', '.js'],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -28,9 +29,5 @@ module.exports = {
         loader: 'source-map-loader',
       },
     ],
-  },
-  externals: {
-    react: 'React',
-    'react-dom': 'ReactDom',
   },
 };
