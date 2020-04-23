@@ -1,0 +1,11 @@
+{
+  "name": "starcraftboa",
+  "version": "1.0.0",
+  "description": "An assistant to aid  with the timing of build orders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Snyder",
+  "license": "ISC"
+}
